@@ -45,3 +45,7 @@ nav button.register:hover {
 .course-card .price{
     color: #289bde;
 }
+/* Explore Styles */
+.explore-content {
+  background-color: #F4FAFD;
+}

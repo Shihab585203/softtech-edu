@@ -1,6 +1,19 @@
 body {
   font-family: "Roboto", sans-serif;
 }
+.btn.edu-btn {
+  font-size: 20px;
+  background-color: #289bde;
+  color: #fff;
+  border: 1px solid #289bde;
+  transition: .5s ease-in-out;
+
+}
+.btn.edu-btn:hover {
+  transform: scale(1.2);
+  color: #289bde;
+  border: 1px solid #289bde;
+}
 
 /* Header styles */
 nav button.register {
@@ -14,7 +27,7 @@ nav button.register:hover {
   border: 1px solid #289bde;
   transform: scale(1.2);
 }
-/* Slider */
+/* Slider Styles*/
 .carousel-caption {
   bottom: 100px !important;
   padding: 70px;
@@ -25,13 +38,10 @@ nav button.register:hover {
 .carousel-caption p{
     color: #F4F4F4;
 }
-.carousel-caption button.get-started {
-    font-size: 20px;
-    background-color: #289bde;
-    border: 1px solid #289bde;
-    transition: .5s ease-in-out;
-
+ /* Popular Courses Styles */
+.card-title {
+    color: #4A4A4A;
 }
-.carousel-caption button.get-started:hover {
-    transform: scale(1.2);
+.course-card .price{
+    color: #289bde;
 }

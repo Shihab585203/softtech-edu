@@ -6,20 +6,22 @@ body {
   background-color: #289bde;
   color: #fff;
   border: 1px solid #289bde;
-  transition: .5s ease-in-out;
-
+  transition: 0.5s ease-in-out;
 }
 .btn.edu-btn:hover {
   transform: scale(1.2);
   color: #289bde;
   border: 1px solid #289bde;
 }
+.card-title {
+  color: #4a4a4a;
+}
 
 /* Header styles */
 nav button.register {
   color: #289bde;
   border: 1px solid #289bde;
-  transition: .5s ease-in-out;
+  transition: 0.5s ease-in-out;
 }
 nav button.register:hover {
   background-color: #289bde;
@@ -33,19 +35,28 @@ nav button.register:hover {
   padding: 70px;
 }
 .carousel-caption h1 {
-    font-size: 65px;
+  font-size: 65px;
 }
-.carousel-caption p{
-    color: #F4F4F4;
+.carousel-caption p {
+  color: #f4f4f4;
 }
- /* Popular Courses Styles */
-.card-title {
-    color: #4A4A4A;
-}
-.course-card .price{
-    color: #289bde;
+/* Popular Courses Styles */
+.course-card .price {
+  color: #289bde;
 }
 /* Explore Styles */
 .explore-content {
-  background-color: #F4FAFD;
+  background-color: #f4fafd;
+}
+/* Register Styles */
+.register-wrapper {
+  background-color: #289bde;
+}
+.register-wrapper button.btn {
+  background-color: #fff;
+  color: #289bde;
+  transition: 0.5s ease-in-out;
+}
+.register-wrapper button.btn:hover {
+  transform: scale(1.2);
 }

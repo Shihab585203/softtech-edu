@@ -23,7 +23,7 @@
     <header>
       <nav class="navbar navbar-expand-lg">
         <div class="container align-items-center my-4">
-          <a class="navbar-brand fw-bold fs-2 me-5" href="#">SoftTech Edu</a>
+          <a class="navbar-brand fw-bold fs-2" href="#">SoftTech Edu</a>
           <button
             class="navbar-toggler"
             type="button"
@@ -36,33 +36,35 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <ul class="navbar-nav mx-auto pe-5 mb-lg-0">
               <li class="nav-item">
                 <a
-                  class="nav-link active ms-3 fs-5 fw-semibold"
+                  class="nav-link active mx-2 fs-5 fw-semibold"
                   aria-current="page"
                   href="#"
                   >Home</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link ms-3 fs-5 fw-semibold" href="#">Courses</a>
+                <a class="nav-link fs-5 fw-semibold" href="#">Courses</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link ms-3 fs-5 fw-semibold" href="#">Deals</a>
+                <a class="nav-link fs-5 fw-semibold" href="#">Deals</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link ms-3 fs-5 fw-semibold" href="#">Success</a>
+                <a class="nav-link fs-5 fw-semibold" href="#">Success</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link ms-3 fs-5 fw-semibold" href="#">About</a>
+                <a class="nav-link fs-5 fw-semibold" href="#">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link ms-3 fs-5 fw-semibold" href="#">Register</a>
+                <a class="nav-link fs-5 fw-semibold" href="#">Register</a>
               </li>
             </ul>
 
-            <button class="btn register fs-4" type="submit">Register</button>
+            <button class="btn register fs-4 justify-content-end" type="submit">
+              Register
+            </button>
           </div>
         </div>
       </nav>
@@ -360,26 +362,35 @@
 
       <!-- Start Explore Part -->
       <section class="container">
-        <div class="row row-cols-2 g-0 py-5">
+        <div class="row row-cols-1 row-cols-md-2 row g-0 py-5">
           <div class="col">
-            <img class="img-fluid" src="images/working.png" alt="" />
+            <img class="img-fluid w-100" src="images/working.png" alt="" />
           </div>
           <div class="col px-5 explore-content d-flex align-items-center">
             <div class="">
-              <h1 class="fw-bold">Explore The elearning Institute</h1>
-              <p class="text-muted">
+              <h1 class="fs-md-3 fw-bold">Explore The elearning Institute</h1>
+              <div class="d-none d-md-none d-lg-block">
+                <p class="text-muted">
+                  There are many variations of passages of Lorem Ipsum
+                  available, but the majority have suffered alteration in some
+                  form, by injected humour, or randomised words which don't look
+                  even slightly believable. If you are going to use a passage of
+                  Lorem Ipsum, you need to be sure.
+                </p>
+
+                <p class="text-muted">
+                  Anything embarrassing hidden in the middle of text. All the
+                  Lorem Ipsum generators on the Internet tend to repeat
+                  predefined.
+                </p>
+              </div>
+              <p class="d-block d-md-block d-lg-none">
                 There are many variations of passages of Lorem Ipsum available,
                 but the majority have suffered alteration in some form, by
-                injected humour, or randomised words which don't look even
-                slightly believable. If you are going to use a passage of Lorem
-                Ipsum, you need to be sure.
+                injected humour, or randomised words which....
+                <a class="text-decoration-none" href="#">See More</a>
               </p>
 
-              <p class="text-muted">
-                Anything embarrassing hidden in the middle of text. All the
-                Lorem Ipsum generators on the Internet tend to repeat
-                predefined.
-              </p>
               <div class="d-flex justify-content-between">
                 <div>
                   <h1 class="fw-bold">3.2K+</h1>
@@ -400,6 +411,167 @@
         </div>
       </section>
       <!-- End Explore Part -->
+
+      <!-- Start Register Part -->
+      <div class="container">
+        <div
+          class="row justify-content-center align-items-center my-5 p-5 rounded-3 register-wrapper"
+        >
+          <div
+            class="col-12 col-md-12 col-lg-6 text-white text-center text-md-center text-lg-start"
+          >
+            <h1>Ready to join?</h1>
+            <p>
+              It is a long established fact that a reader will be distracted by
+              the readable content of a page when looking at its layout.
+            </p>
+          </div>
+
+          <div class="col-12 col-md-12 col-lg-6">
+            <div class="d-flex justify-content-center justify-content-lg-end">
+              <button class="btn d-none d-md-none d-lg-block fw-bold px-3 py-2">
+                Register Now
+              </button>
+              <button
+                class="btn d-block d-md-block d-lg-none fw-bold px-3 py-2"
+              >
+                Registration
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Register Part -->
+
+      <!-- Start Successful Part -->
+      <section class="container">
+        <div class="row">
+          <div
+            class="col-12 col-md-8 col-lg-6 my-5 text-center text-md-start text-lg-start"
+          >
+            <h1>Meet Our Successful Students</h1>
+            <p class="text-muted">
+              It is a long established fact that a reader will be distracted by
+              the readable content of a page when looking at its layout.
+            </p>
+          </div>
+        </div>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-3">
+          <!-- Stuednt Card -->
+          <div class="col">
+            <div class="">
+              <div class="card border-0">
+                <img
+                  src="images/student/student-1.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body border border-top-0">
+                  <h3 class="card-title">Awlad Hossain</h3>
+                  <p class="card-text text-muted">UI/UX Designer</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Stuednt Card -->
+          <div class="col">
+            <div class="">
+              <div class="card border-0">
+                <img
+                  src="images/student/student-2.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body border border-top-0">
+                  <h3 class="card-title">Jannatul Islam</h3>
+                  <p class="card-text text-muted">Motion Design</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Stuednt Card -->
+          <div class="col">
+            <div class="">
+              <div class="card border-0">
+                <img
+                  src="images/student/student-3.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body border border-top-0">
+                  <h3 class="card-title">Imran Hossain</h3>
+                  <p class="card-text text-muted">Graphic Designer</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Stuednt Card -->
+          <div class="col">
+            <div class="">
+              <div class="card border-0">
+                <img
+                  src="images/student/student-4.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body border border-top-0">
+                  <h3 class="card-title">Nishi Akter</h3>
+                  <p class="card-text text-muted">Web Developer</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- View All Button -->
+        <div class="row">
+          <div class="col-12 my-5 d-flex justify-content-center">
+            <button
+              class="btn d-block d-md-none d-lg-block px-3 py-2 fw-semibold edu-btn"
+            >
+              View All
+            </button>
+          </div>
+        </div>
+      </section>
+      <!-- End Successful Part -->
+
+      <!-- Start Feedback Part -->
+      <div class="container">
+        <!-- Feedback heading -->
+        <div
+          class="row row-cols-1 row-cols-md-1 row-cols-lg-2 d-flex justify-content-center"
+        >
+          <div class="col text-center">
+            <div class="px-0 px-md-5 px-lg-0">
+              <h1>Some Students Feedback</h1>
+              <p class="text-muted">
+                It is a long established fact that a reader will be distracted
+                by the readable content of a page when looking at its layout.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Feedback body -->
+        <div class="row py-5">
+          <div class="col">
+            <div class="border">
+              <!-- Feedback Body Top -->
+              <div class="d-flex justify-content-between">
+                <img src="images/comma.png" alt="">
+                <div class="feedback-icon">
+                  <span><i class="fa-solid fa-star"></i></span>
+                  <span><i class="fa-solid fa-star"></i></span>
+                  <span><i class="fa-solid fa-star"></i></span>
+                  <span><i class="fa-solid fa-star"></i></span>
+                  <span><i class="fa-regular fa-star"></i></span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col"></div>
+        </div>
+      </div>
+      <!-- End Feedback Part -->
     </main>
 
     <!-- Script -->

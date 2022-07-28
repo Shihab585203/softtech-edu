@@ -86,6 +86,10 @@ i.feedback-icon {
   color: #f59e0b;
 }
 
-/* FAQ Section */
-
-
+/* Footer Section */
+.social-icon span i {
+  transition: .5s ease-in-out;
+}
+.social-icon span i:hover {
+  transform: rotate(360deg);
+}

@@ -13,8 +13,9 @@ body {
   color: #289bde;
   border: 1px solid #289bde;
 }
-.card-title {
-  color: #4a4a4a;
+.card-title,
+button.accordion-button {
+  color: #4a4a4a !important;
 }
 
 /* Header styles */
@@ -60,3 +61,31 @@ nav button.register:hover {
 .register-wrapper button.btn:hover {
   transform: scale(1.2);
 }
+/* Feedback Styles */
+/* Arrows */
+svg.arrow {
+  width: 35px;
+  background: #e5f6ff;
+  color: #289bde;
+  border-radius: 50%;
+  position: absolute;
+  top: 48%;
+  transition: 0.5s ease-in-out;
+}
+svg.arrow:hover {
+  background-color: #289bde;
+  color: #fff;
+}
+svg.left-arrow {
+  left: -10px;
+}
+svg.right-arrow {
+  right: -10px;
+}
+i.feedback-icon {
+  color: #f59e0b;
+}
+
+/* FAQ Section */
+
+

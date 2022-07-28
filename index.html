@@ -17,6 +17,8 @@
       integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
       crossorigin="anonymous"
     />
+    <!-- Font Awesome Link -->
+    <script src="https://kit.fontawesome.com/a29573b667.js" crossorigin="anonymous"></script>
   </head>
   <body>
     <!-- Start Header Part -->
@@ -552,26 +554,137 @@
           </div>
         </div>
         <!-- Feedback body -->
-        <div class="row py-5">
+        <div class="row row-cols-1 row-cols-lg-2 g-3 py-5 position-relative">
           <div class="col">
-            <div class="border">
+            <div class="border p-4">
+
+              <span><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 arrow left-arrow d-none d-md-none d-lg-block" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7" />
+              </svg></span>
+
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 arrow right-arrow d-none d-md-none d-lg-block" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+              </svg>
+
               <!-- Feedback Body Top -->
               <div class="d-flex justify-content-between">
                 <img src="images/comma.png" alt="">
-                <div class="feedback-icon">
-                  <span><i class="fa-solid fa-star"></i></span>
-                  <span><i class="fa-solid fa-star"></i></span>
-                  <span><i class="fa-solid fa-star"></i></span>
-                  <span><i class="fa-solid fa-star"></i></span>
-                  <span><i class="fa-regular fa-star"></i></span>
+                <div class="">
+                  <span><i class="fa-solid fa-star feedback-icon"></i></i></span>
+                  <span><i class="fa-solid fa-star feedback-icon"></i></i></span>
+                  <span><i class="fa-solid fa-star feedback-icon"></i></i></span>
+                  <span><i class="fa-solid fa-star feedback-icon"></i></i></span>
+                  <span><i class="fa-regular fa-star feedback-icon"></i></span>
+                  
+                </div>
+              </div>
+              <p class="text-muted mt-3">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem.</p>
+
+              <div class="d-flex align-items-center">
+                <div class="me-3">
+                  <img src="images/student/student-5.png" alt="">
+                </div>
+
+                <div>
+                  <h5>Awlad Hossain</h5>
+                  <p class="text-muted">UI Designer</p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <div class="col">
+            <div class="border p-4">
+              <!-- Feedback Body Top -->
+              <div class="d-flex justify-content-between">
+                <img src="images/comma.png" alt="">
+                <div class="">
+                  <span><i class="fa-solid fa-star feedback-icon"></i></i></span>
+                  <span><i class="fa-solid fa-star feedback-icon"></i></i></span>
+                  <span><i class="fa-solid fa-star feedback-icon"></i></i></span>
+                  <span><i class="fa-solid fa-star feedback-icon"></i></i></span>
+                  <span><i class="fa-regular fa-star feedback-icon"></i></span>
+                  
+                </div>
+              </div>
+              <p class="text-muted mt-3">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem.</p>
+
+              <div class="d-flex align-items-center">
+                <div class="me-3">
+                  <img src="images/student/student-6.png" alt="">
+                </div>
+
+                <div>
+                  <h5>Shanta Akter</h5>
+                  <p class="text-muted">Graphic Designer</p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+         
+        </div>
+      </div>
+      <!-- End Feedback Part -->
+
+      <!-- Start FAQ Part -->
+      <div class="container">
+        <div
+          class="row row-cols-1 row-cols-md-1 row-cols-lg-2 d-flex justify-content-center py-5"
+        >
+          <div class="col text-center">
+            <div class="px-0 px-md-5 px-lg-0">
+              <h1>Frequently Asked Questions</h1>
+              <p class="text-muted">
+                It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row d-flex justify-content-center pb-5">
+          <div class="col-12 col-md-12 col-lg-8">
+            <div class="accordion" id="accordionExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                  <button class="accordion-button fs-5 fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    What is the different between flexbox and grid?
+                  </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur repudiandae iusto maiores voluptas temporibus voluptates, asperiores labore nisi iste eligendi, ab at minima esse quam optio voluptate officiis, assumenda praesentium! Exercitationem dolorum soluta veniam at eius ullam atque asperiores officiis?</p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button class="accordion-button collapsed fs-5 fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    What is the different between bootstrap and tailwind?
+                  </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                  <button class="accordion-button collapsed fs-5 fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Accordion Item #3
+                  </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="col"></div>
         </div>
       </div>
-      <!-- End Feedback Part -->
+      <!-- End FAQ Part -->
     </main>
 
     <!-- Script -->

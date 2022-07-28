@@ -1,6 +1,7 @@
 body {
   font-family: "Roboto", sans-serif;
 }
+/* Common Styles or Utilities  */
 .btn.edu-btn {
   font-size: 20px;
   background-color: #289bde;
@@ -61,6 +62,18 @@ nav button.register:hover {
 .register-wrapper button.btn:hover {
   transform: scale(1.2);
 }
+button.btn.submit-form,
+button.btn.save-changes {
+  background-color: #289bde;
+  color: #fff;
+  border: 1px solid #289bde;
+}
+button.btn.close {
+  background-color: #4a4a4a;
+  color: #fff;
+  border: 1px solid #4a4a4a;
+}
+
 /* Feedback Styles */
 /* Arrows */
 svg.arrow {
